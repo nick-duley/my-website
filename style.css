@@ -82,7 +82,7 @@ h1{
 /* Main Content Body
 -------------------------------------------------------------------*/
 
-div#siteWrapper, div#coreContent, div#mainNav ul, div#footer {
+div#siteWrapper, div#coreContent, div#footer {
 	width: auto;
 }
 div#coreContent {
