@@ -1,0 +1,133 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	background: transparent;
+}
+
+
+/* Global Styles
+-------------------------------------------------------------------*/
+
+body{
+  background: #fff;
+  line-height: 1;
+  font-family: Arial, Geneva, serif;
+  color: #333;
+}
+strong{
+  font-weight: bold;
+}
+
+socialtabs {
+	float: left;
+	display: inline;
+}
+
+/* Links 
+
+a:link,
+a:visited{
+  color: #9C8A6A;
+  text-decoration: none;
+}
+
+.entry-content a:link,
+.entry-content a:visited{
+  text-decoration: underline;
+}
+
+a:hover,
+a:active{
+  color: #3E372B;
+  text-decoration: underline;
+}
+*/
+
+/* Headers */
+
+h1{
+  margin: 10px 0 20px;
+  font-family: "Book Antiqua", Georgia, "times new roman", serif;
+  font-size: 4.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  word-spacing: .2em;
+}
+
+/* Structure */
+
+#siteWrapper{
+  margin: 0 auto;
+  padding-top: 15px;
+  width: 500px;
+  text-align: center;
+  position: relative;
+  
+}
+
+/* Main Content Body
+-------------------------------------------------------------------*/
+
+div#siteWrapper, div#coreContent, div#mainNav ul, div#footer {
+	width: auto;
+}
+div#coreContent {
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+}
+
+#coreContent{
+  float: left;
+  width: 500px;
+  margin-top: 8px;
+}
+
+.postContent{
+  position: relative;
+}
+
+#coreContent p {
+  margin-bottom: 1.7em;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #333;
+  text-align: justify;
+}
+
+/* Footer
+-------------------------------------------------------------------- */
+
+#footer{
+  width: 500px;
+  margin: 40px auto 0;
+  padding: 20px 0 35px 0;
+  border-top: 4px double #ccc;
+  color: #666;
+  text-align: center;
+}
+.footerContent{
+  width: 500px;
+  margin: 20px auto 0;
+  clear: left;
+}
+#footer p{
+  line-height: 1.4em;
+}
